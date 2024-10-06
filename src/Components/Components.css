@@ -1,0 +1,51 @@
+.slider-container {
+    width: 100%;
+    /* Ensures it takes full width */
+    max-width: 600px;
+    /* Set a maximum width */
+    height: 400px;
+    /* Fixed height for the slider */
+    overflow: hidden;
+    /* Prevents content overflow */
+}
+
+.slide-content {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 1rem;
+    opacity: 0;
+    /* Hidden initially */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.slide-content:hover .slide-text {
+    opacity: 1;
+    /* Show content on hover */
+}
+
+.slide-text h3 {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.slide-text p {
+    color: white;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
