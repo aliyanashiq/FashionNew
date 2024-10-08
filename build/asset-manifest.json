@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/FashionNew/static/css/main.b5855241.css",
+    "main.js": "/FashionNew/static/js/main.07dd26dc.js",
+    "static/media/pexels-askar-abayev-5638676.jpg": "/FashionNew/static/media/pexels-askar-abayev-5638676.7db0b30dd8fe5c0545b3.jpg",
+    "static/media/pexels-askar-abayev-5638644.jpg": "/FashionNew/static/media/pexels-askar-abayev-5638644.5264a5b856fa02735f04.jpg",
+    "static/media/pexels-lum3n-44775-322207.jpg": "/FashionNew/static/media/pexels-lum3n-44775-322207.8dd725ef6005d1a26430.jpg",
+    "static/media/pexels-harrisonhaines-3204051.jpg": "/FashionNew/static/media/pexels-harrisonhaines-3204051.2ab61d24101fe4a813bb.jpg",
+    "static/media/pexels-scottwebb-1029599.jpg": "/FashionNew/static/media/pexels-scottwebb-1029599.24eabdfe00d758d5a7c8.jpg",
+    "static/media/pexels-wendywei-3973974.jpg": "/FashionNew/static/media/pexels-wendywei-3973974.7b66ab41e72e1dfbc0c4.jpg",
+    "static/media/pexels-n-voitkevich-4641954.jpg": "/FashionNew/static/media/pexels-n-voitkevich-4641954.eaa2632737639d0d50fe.jpg",
+    "static/media/pexels-igor-ovsyannykov-56123-205961.jpg": "/FashionNew/static/media/pexels-igor-ovsyannykov-56123-205961.8bd0555f0366e6824c4d.jpg",
+    "static/media/pexels-rachel-claire-4992767.jpg": "/FashionNew/static/media/pexels-rachel-claire-4992767.8fc68b15164f051f41eb.jpg",
+    "static/media/pexels-baphi-1191716.jpg": "/FashionNew/static/media/pexels-baphi-1191716.b3cd7888e8fd3aca1551.jpg",
+    "static/media/pexels-konrads-photo-28541504.jpg": "/FashionNew/static/media/pexels-konrads-photo-28541504.b06d49f1d5abd02bd6d8.jpg",
+    "static/media/pexels-julia-volk-5273210.jpg": "/FashionNew/static/media/pexels-julia-volk-5273210.9d8ec021ed2c80d1cc33.jpg",
+    "static/media/pexels-vince-2227832.jpg": "/FashionNew/static/media/pexels-vince-2227832.118762c6be3037196c02.jpg",
+    "static/media/pexels-harsh-kushwaha-804217-1689731.jpg": "/FashionNew/static/media/pexels-harsh-kushwaha-804217-1689731.4773c4cd07bb151864dd.jpg",
+    "static/media/pexels-monica-1034584.jpg": "/FashionNew/static/media/pexels-monica-1034584.937b483f7f75795fc6e8.jpg",
+    "static/media/pexels-katia-miasoed-624959709-28558069.jpg": "/FashionNew/static/media/pexels-katia-miasoed-624959709-28558069.20b066841822e32483b7.jpg",
+    "static/media/pexels-askar-abayev-5638813.jpg": "/FashionNew/static/media/pexels-askar-abayev-5638813.7e7dd511cad238a4fe61.jpg",
+    "static/media/pexels-jonathanborba-3763583.jpg": "/FashionNew/static/media/pexels-jonathanborba-3763583.5ae461a4effd3f36a038.jpg",
+    "static/media/pexels-pixabay-39691.jpg": "/FashionNew/static/media/pexels-pixabay-39691.c0ac2c713ba319b50bd9.jpg",
+    "static/media/pexels-huy-nguy-n-1640325753-28354746.jpg": "/FashionNew/static/media/pexels-huy-nguy-n-1640325753-28354746.9a243ab692449dccbd7b.jpg",
+    "static/media/pexels-olly-935743.jpg": "/FashionNew/static/media/pexels-olly-935743.d12ed96ccc8c9c1f1910.jpg",
+    "static/media/pexels-arina-krasnikova-5416632.jpg": "/FashionNew/static/media/pexels-arina-krasnikova-5416632.71621f63010cf50e6b24.jpg",
+    "static/media/pexels-vika-glitter-392079-1620653.jpg": "/FashionNew/static/media/pexels-vika-glitter-392079-1620653.1f3cf64ca39cd5ac7850.jpg",
+    "static/media/pexels-mahdi-chaghari-9996334-13634600.jpg": "/FashionNew/static/media/pexels-mahdi-chaghari-9996334-13634600.41436e2916c4900b2e34.jpg",
+    "static/media/pexels-annetnavi-792777.jpg": "/FashionNew/static/media/pexels-annetnavi-792777.5a5aee8fad11f088a3c5.jpg",
+    "static/media/pexels-pixabay-267308.jpg": "/FashionNew/static/media/pexels-pixabay-267308.84435f83484abb045662.jpg",
+    "static/media/pexels-darina-belonogova-7959665.jpg": "/FashionNew/static/media/pexels-darina-belonogova-7959665.9e18da63d434154cfca6.jpg",
+    "index.html": "/FashionNew/index.html",
+    "main.b5855241.css.map": "/FashionNew/static/css/main.b5855241.css.map",
+    "main.07dd26dc.js.map": "/FashionNew/static/js/main.07dd26dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5855241.css",
+    "static/js/main.07dd26dc.js"
+  ]
+}

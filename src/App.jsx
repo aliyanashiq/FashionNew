@@ -1,16 +1,17 @@
-import React from 'react'
-import Header from './Components/Header'
-import F1 from './Components/F1'
-import { DataProvider } from './DataContext'
+import React from 'react';
+import Header from './Components/Header';
+import F1 from './Components/F1';
+import { DataProvider } from './DataContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Footer from './Components/Footer'
-import MainComponent from './Components/MainComponent'
-import Shop from './Shop/Shop'
+import Footer from './Components/Footer';
+import MainComponent from './Components/MainComponent';
+import Shop from './Shop/Shop';
 
 function App() {
   return (
     <DataProvider>
-      <Router>
+      {/* Set the basename to match your GitHub Pages repo */}
+      <Router basename="/FashionNew">
         <div>
           <Header />
 
@@ -23,7 +24,7 @@ function App() {
         </div>
       </Router>
     </DataProvider>
-  )
+  );
 }
 
-export default App
+export default App;
