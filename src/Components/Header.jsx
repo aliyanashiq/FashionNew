@@ -45,8 +45,8 @@ function Header() {
     };
 
     return (
-        <div className={`shadow-md fixed w-full top-0 z-50 ${isScrolled ? 'bg-black text-white' : 'bg-white text-black'}`}>
-            <header className="flex justify-between items-center  px-[2rem] py-2 w-[100%]">
+        <div className={`shadow-md fixed xl:w-[100%] lg:w-[100%] md:w-[100%] w-[100%] top-0 z-50 ${isScrolled ? 'bg-black text-white' : 'bg-white text-black'}`}>
+            <header className="flex justify-between items-center xl:w-[100%] lg:w-[100%]  px-[2rem] py-2 w-[100%]">
                 {/* Logo and Mobile Menu Icon */}
                 <nav className="flex items-center">
 
