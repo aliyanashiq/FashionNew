@@ -18,9 +18,9 @@ function F1() {
     return () => window.removeEventListener('scroll', HandelScroll)
   }, []);
   return (
-    <div className=" mx-auto px-[1rem] py-12 h-[197vh] w-[147%] relative 
+    <div className=" mx-auto px-[1rem] py-12 h-[197vh] w-[100%] relative 
     lg:w-[100%]  lg:px-[3rem]
-    xl:h-[160vh] xl:w-[100%]
+    xl:h-[116vh] xl:w-[100%] xl:pl-[3rem] xl:px-0 xl:pr-[1rem]
     md:h-[180vh] md:w-[147%] md:px-[3rem]">
       <h1 className="text-6xl font-extralight text-center mt-8 mb-8">HELLO FASHION</h1>
       <div className={`fixed xl:w-full lg:w-full md:w-full w-[100%] xl:left-[6px] lg:left-0 xl:top-[76px] lg:top-[45rem]  top-[45.7rem] md:top-[45rem] md:left-0 left-0  transition-opacity z-50 ${ShowIcons ? 'opacity-100' : 'opacity-0'}`} >

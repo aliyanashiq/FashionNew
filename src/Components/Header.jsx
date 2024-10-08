@@ -45,13 +45,17 @@ function Header() {
     };
 
     return (
-        <div className={`shadow-md fixed xl:w-[100%] lg:w-[100%] md:w-[100%] w-[100%] top-0 z-50 ${isScrolled ? 'bg-black text-white' : 'bg-white text-black'}`}>
-            <header className="flex justify-between items-center xl:w-[100%] lg:w-[100%]  px-[2rem] py-2 w-[100%]">
+        <div className={`shadow-md fixed 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] w-[100%] top-0 z-50 ${isScrolled ? 'bg-black text-white' : 'bg-white text-black'}`}>
+            <header className="flex justify-between items-center 2xl:w-[100%] xl:w-[100%] lg:w-[100%]  xl:px-[2rem] md:px-[1.5rem] lg:px-[1rem] px-4 py-2 w-[100%]">
                 {/* Logo and Mobile Menu Icon */}
                 <nav className="flex items-center">
 
                     <Link to="/">
-                        <div className="logo xl:block hidden lg:block md:hidden h-8 w-8 mr-3 bg-rose-400 rounded-full items-center justify-center">
+                        <div className="logo xl:block hidden lg:block md:hidden xl:h-8 lg:h-5
+                        
+                        xl:w-8 lg:w-5 
+                        xl:mr-3 lg:mr-2 
+                         bg-rose-400 rounded-full items-center justify-center">
 
                         </div>
                     </Link>
@@ -59,9 +63,9 @@ function Header() {
                     <button className="lg:hidden text-2xl" onClick={toggleMenu}> {/* Toggle mobile menu */}
                         <FiMenu />
                     </button>
-                    <p className="xl:hidden lg:hidden text-3xl  font-thin md:text-3xl md:top-[-7px]  md-contents relative left-[7rem] md:left-[18rem] ">Hello Fashion</p>
+                    <p className="xl:hidden lg:hidden text-3xl  font-thin md:text-3xl md:top-[-7px]  md-contents relative left-[7rem] md:left-[30rem] ">Hello Fashion</p>
                     {/* Desktop Menu */}
-                    <ul className="hidden lg:flex space-x-8 text-xs items-center font-thin">
+                    <ul className="hidden lg:flex xl:space-x-8 lg:space-x-5 xl:text-xs lg:text-[0.50rem] items-center font-thin">
                         <li><a href="#" className="hover:text-gray-600">ABOUT</a></li>
                         <li><a href="#" className="hover:text-gray-600">HF PRESETS</a></li>
                         <Link to="/shop" className="hover:text-gray-600">
@@ -72,7 +76,7 @@ function Header() {
 
                 {/* Main Category Menu for Desktop */}
                 <nav className={`hidden lg:flex justify-center ${isScrolled ? 'text-white' : 'text-black'}`}>
-                    <ul className="flex space-x-6 text-xs uppercase font-thin tracking-wider">
+                    <ul className="flex space-x-6 xl:text-xs lg:text-[0.50rem]  uppercase font-thin tracking-wider">
                         {['beauty', 'holiday', 'family', 'fashion', 'life', 'travel', 'home'].map((category) => (
                             <li key={category} onMouseOver={() => setActiveCategory(category)}>
                                 <a href="#" className="hover:text-gray-600">{category.toUpperCase()}</a>
@@ -83,17 +87,17 @@ function Header() {
 
                 {/* Icons and Subscribe/Search */}
                 <nav className="flex justify-end space-x-6 items-center">
-                    <ul className="flex items-center space-x-4 text-xs font-thin">
+                    <ul className="flex items-center space-x-4 xl:text-xs lg:text-[0.50rem]  font-thin">
                         <li onMouseEnter={() => setIssubHovered(true)}>
                             <a href="#" className="hover:text-gray-600 xl:block hidden lg:hidden md:hidden">SUBSCRIBE</a>
                         </li>
                         <li>
                             <a href="#" className="hover:text-gray-600 hidden xl:block lg:hidden md:hidden">CONTACT</a>
                         </li>
-                        <li className="text-base">
+                        <li className="xl:text-base lg:text-xs">
                             <CiInstagram className="cursor-pointer lg:block hidden hover:text-gray-600 md:hidden" />
                         </li>
-                        <li className="text-base" onMouseEnter={() => setIsSearchHovered(true)}>
+                        <li className="xl:text-base lg:text-xs" onMouseEnter={() => setIsSearchHovered(true)}>
                             <CiSearch className="cursor-pointer lg:block hidden md:hidden hover:text-gray-600" />
                         </li>
                     </ul>

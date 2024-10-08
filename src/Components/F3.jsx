@@ -14,8 +14,8 @@ function F3() {
   }, []);
 
   return (
-    <div className='w-[147%] h-[70vh] flex flex-wrap items-center
-      xl:w-[100%] xl:flex xl:h-[60vh]
+    <div className='w-[147%] h-[70vh] flex flex-wrap items-center relative
+      xl:w-[103%] xl:flex xl:h-[60vh]
       lg:w-[100%] lg:flex lg:h-[70vh]
       md:w-[147%] md:flex md:h-[70vh] overflow-hidden'
       >
@@ -23,7 +23,7 @@ function F3() {
         <div
           key={index}
           className={`relative group w-[208px] h-[368px] 
-            xl:w-[224.6px] xl:h-[368px] 
+            xl:w-[219.6px] xl:h-[368px] 
             lg:w-[170.6px] lg:h-[368px] 
             md:w-[282px] md:h-[368px]
             ${index === 4 || index === 5 ? 'xl:block' : ''}
@@ -41,10 +41,10 @@ function F3() {
               md:w-[283px]
               "
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end xl:p-4 lg:p-0 lg:pl-2">
+          <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0  lg:h-[26.5rem] group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end xl:p-4 lg:p-0 lg:pl-2">
             <div className="bg-black bg-opacity-50 relative w-[8.5rem]  pl-2 pt-3 pr-3
             xl:left-[-15px] lg:left-[-13px] md:left-[2px] md:w-[14rem] md:pl-4 md:pt-2
-            xl:top-12 lg:top-[1rem] lg:w-[10rem]
+            xl:top-[1rem] lg:top-[1rem] lg:w-[10rem]
             h-60 
             text-white xl:p-5 lg:p-4 shadow-lg">
               <h3 className="text-lg font-semibold text-zinc-400">{image.heading}</h3>
