@@ -40,7 +40,7 @@ function F4part1() {
         />
         
         {/* Overlay content */}
-        <div className="absolute xl:top-96 xl:left-12  lg:left-[2rem] inset-0 flex flex-col items-center justify-center bg-gray-800 bg-opacity-75 transition-opacity duration-300 group-hover:opacity-0 h-52 w-64 p-4">
+        <div className="absolute xl:top-40 xl:left-14  lg:left-[2rem] inset-0 flex flex-col items-center justify-center bg-gray-800 bg-opacity-75 transition-opacity duration-300 group-hover:opacity-0 h-52 w-64 p-4">
           <h2 className="text-lg font-semibold text-white">{DataSlider[currentIndex].heading}</h2>
           <p className="text-sm text-gray-200">{DataSlider[currentIndex].paragraph}</p>
         </div>

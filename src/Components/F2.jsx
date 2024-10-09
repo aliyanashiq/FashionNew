@@ -8,7 +8,7 @@ function F2() {
   return (
     <div className='flex flex-wrap gap-6 w-[147%] p-[1rem] pl-[1rem]  h-[304vh] mt-[2rem]
      
-     xl:h-[177vh] xl:p-[1rem] xl:pl-[3rem] xl:pr-[1rem] xl:mt-0 xl:w-[100%] xl:flex xl:flex-wrap xl:gap-6
+     xl:h-[177vh] xl:p-[1rem] xl:pl-[3rem] xl:pr-[2rem] xl:mt-0 xl:w-[100%] xl:flex xl:flex-wrap xl:gap-6
      lg:h-[178vh] lg:w-[96%] lg:p-12 lg:pl-14 lg:mt-0  lg:flex lg:flex-wrap 
      md:h-[357vh]  md:p-[1rem]  md:mt-[1rem] md:flex md:flex-wrap md:px-[3rem]
        '>
@@ -25,7 +25,7 @@ function F2() {
         w-[112vh] h-[120vh] object-cover
           ' />
           <div className="absolute  shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] bottom-[-7rem]  left-[15px] right-0 bg-white bg-opacity-90 p-6 w-[92%]
-          xl:bottom-[-26rem] xl:left-[25px]
+          xl:bottom-[-25rem] xl:left-[25px]
           lg:bottom-[-6rem] lg:left-[17px]
           md:bottom-[-6rem] md:left-[43px]
            ">

@@ -31,12 +31,12 @@ function F4() {
                             <img
                                 src={item.imageUrl}
                                 alt={item.heading}
-                                className="h-[500px] xl:h-[44.5rem] lg:h-[520px] md:h-[158vh] 
+                                className="h-[500px] xl:h-[33.8rem] lg:h-[520px] md:h-[158vh] 
                                 xl:w-1/2 lg:w-1/2  md:w-[100%] w-[100%]   object-cover"
                             />
                             {/* Content Section: Overlay for md and below */}
                             <div className="content absolute top-[338px] left-[21px] p-6 h-[18rem] w-[90%] bg-white md:w-[85%] shadow-lg
-                            xl:absolute xl:top-[0rem] xl:left-[23.5rem] xl:w-1/2 xl:h-[100%] xl:p-6
+                            xl:absolute xl:top-[0rem] xl:left-[25.5rem] xl:w-1/2 xl:h-[100%] xl:p-6
                             lg:absolute    lg:top-[0rem]    lg:left-[18.4rem]    lg:w-[50%]   lg:h-[100%]  lg:pl-2 lg:p-0 lg:pr-2
                              md:absolute md:top-[43rem] md:left-[80px] md:bg-white md:text-black md:h-[15rem] md:shadow-lg flex flex-col justify-center
                              lg:bg-transparent lg:text-black ">

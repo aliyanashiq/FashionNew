@@ -15,7 +15,7 @@ function F3() {
 
   return (
     <div className='w-[147%] h-[70vh] flex flex-wrap items-center relative
-      xl:w-[103%] xl:flex xl:h-[60vh]
+      xl:w-[100%] xl:flex xl:h-[60vh]
       lg:w-[100%] lg:flex lg:h-[70vh]
       md:w-[147%] md:flex md:h-[70vh] overflow-hidden'
       >
@@ -23,7 +23,7 @@ function F3() {
         <div
           key={index}
           className={`relative group w-[208px] h-[368px] 
-            xl:w-[219.6px] xl:h-[368px] 
+            xl:w-[224.8px] xl:h-[368px] 
             lg:w-[170.6px] lg:h-[368px] 
             md:w-[282px] md:h-[368px]
             ${index === 4 || index === 5 ? 'xl:block' : ''}
