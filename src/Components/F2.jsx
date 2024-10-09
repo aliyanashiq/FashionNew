@@ -25,7 +25,7 @@ function F2() {
         w-[112vh] h-[120vh] object-cover
           ' />
           <div className="absolute  shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] bottom-[-7rem]  left-[15px] right-0 bg-white bg-opacity-90 p-6 w-[92%]
-          xl:bottom-[-31rem] xl:left-[25px]
+          xl:bottom-[-26rem] xl:left-[25px]
           lg:bottom-[-6rem] lg:left-[17px]
           md:bottom-[-6rem] md:left-[43px]
            ">

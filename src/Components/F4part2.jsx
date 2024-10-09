@@ -3,7 +3,7 @@ import './Components.css'; // Make sure your custom CSS file includes the scroll
 
 function F4part2() {
   return (
-    <div className=' xl:block xl:relative xl:top-[-33px] lg:top-[3rem] lg:block md:hidden hidden Scrooll xl:h-[89vh] lg:h-[100vh] p-1 border-2 overflow-y-scroll relative top-[-3rem] no-scrollbar'>
+    <div className=' xl:block xl:relative xl:top-[-33px] lg:top-[3rem] lg:block md:hidden hidden xl:Scrooll xl:h-[89vh] lg:h-[100vh] p-1 border-2 overflow-y-scroll relative top-[-3rem] no-scrollbar'>
       <h2 className="text-xs text-center relative top-4 font-thin mb-4">Latest Friends</h2>
       <h4 className="text-4xl text-center font-thin mb-6">SHOP NOW</h4>
 
