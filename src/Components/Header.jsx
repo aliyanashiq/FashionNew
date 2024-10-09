@@ -110,8 +110,8 @@ function Header() {
             <div className={`fixed top-0 left-0 h-full w-full lg:hidden z-40 ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
                 {/* Menu List */}
                 <ul
-                    className={`fixed md:top-[2.5rem] top-[3.2rem] left-0 md:w-[25rem] w-[18rem] transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
-      transition-transform duration-500 ease-in-out bg-black bg-opacity-90 h-[139vh] flex flex-col space-y-2 px-6 py-[3rem] text-white text-sm uppercase overflow-y-auto`}
+                    className={`fixed md:top-[3.5rem] top-[3.2rem] left-0 md:w-[25rem] w-[18rem] transform ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+      transition-transform duration-500 ease-in-out bg-black bg-opacity-90 md:h-[142vh] flex flex-col space-y-2 px-6 py-[3rem] text-white text-sm uppercase overflow-y-auto`}
                 >
                     {[
                         ['about', 'hf presets', 'shop', 'subscribe', 'videos', 'shop'],
@@ -142,7 +142,7 @@ function Header() {
                                         <span className="font-thin md:text-2xl text-3xl md:font-thin pl-4">{category[0]}</span>
                                         <ul className="pl-4">
                                             {category.slice(1).map((subItem, subIndex) => (
-                                                <li key={subIndex} className="hover:text-gray-400 text-base font-thin capitalize mt-1">
+                                                <li key={subIndex} className="hover:text-gray-400 text-base font-thin capitalize md:mt-4">
                                                     {subItem}
                                                 </li>
                                             ))}

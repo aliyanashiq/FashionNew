@@ -15,9 +15,9 @@ function F3() {
 
   return (
     <div className='w-[147%] h-[70vh] flex flex-wrap items-center relative
-      xl:w-[100%] xl:flex xl:h-[60vh]
-      lg:w-[100%] lg:flex lg:h-[70vh]
-      md:w-[147%] md:flex md:h-[70vh] overflow-hidden'
+      xl:w-[100%] xl:flex xl:h-[60vh] xl:overflow-hidden
+      lg:w-[100%] lg:flex lg:h-[70vh] lg:overflow-hidden
+      md:w-[147%] md:flex md:h-[58vh] md:overflow-hidden'
       >
       {imageList.map((image, index) => (
         <div
@@ -25,7 +25,7 @@ function F3() {
           className={`relative group w-[208px] h-[368px] 
             xl:w-[224.8px] xl:h-[368px] 
             lg:w-[170.6px] lg:h-[368px] 
-            md:w-[282px] md:h-[368px]
+            md:w-[282px] md:h-[479px] overflow-hidden
             ${index === 4 || index === 5 ? 'xl:block' : ''}
             ${index === 4 || index === 5 ? 'lg:block' : ''}
             ${index === 4 || index === 5 ? 'md:hidden' : ''} // Hide 5th and 6th images on screens below 768px

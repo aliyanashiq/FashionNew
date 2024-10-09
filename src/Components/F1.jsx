@@ -19,11 +19,11 @@ function F1() {
   }, []);
   return (
     <div className=" mx-auto px-[1rem] py-12 h-[197vh] w-[100%] relative 
-    lg:w-[100%]  lg:px-[3rem]
-    xl:h-[146vh] xl:w-[100%] xl:pl-[3rem] xl:px-0 xl:pr-[1rem]
-    md:h-[180vh] md:w-[147%] md:px-[3rem]">
+    lg:w-[100%]  lg:px-0 lg:pl-[3rem] lg:pr-[2rem] 
+    xl:h-[146vh] xl:w-[100%] xl:pl-[3rem] xl:px-0 xl:pr-[2rem]
+    md:h-[102vh] md:w-[147%] md:px-[3rem]">
       <h1 className="text-6xl font-extralight text-center mt-8 mb-8">HELLO FASHION</h1>
-      <div className={`fixed xl:w-full lg:w-full md:w-full w-[100%] xl:left-[6px] lg:left-0 xl:top-[76px] lg:top-[45rem]  top-[45.7rem] md:top-[45rem] md:left-0 left-0  transition-opacity z-50 ${ShowIcons ? 'opacity-100' : 'opacity-0'}`} >
+      <div className={`fixed xl:w-full lg:w-full md:w-full w-[100%] xl:left-[6px] lg:left-0 xl:top-[76px] lg:top-[45rem]  top-[45.7rem] md:top-[91rem] md:left-0 left-0  transition-opacity z-50 ${ShowIcons ? 'opacity-100' : 'opacity-0'}`} >
         <ul className="xl:flex  lg:inline-flex md:inline-flex inline-flex overflow-hidden xl:bg-transparent  xl:pl-0 lg:pl-[37rem] xl:h-[14rem] lg:h-[3rem] md:h-[3rem] h-[3rem] md:pl-[26rem] pl-[10rem] xl:bg-opacity-0 lg:bg-black md:bg-black bg-black lg:w-full md:w-full w-[100%] xl:flex-col lg:flex-row  md:flex-row flex-row  lg:space-x-9  md:space-x-9 space-x-9  xl:space-y-4 xl:space-x-0  text-3xl">
           <li className='h-8 w-8 bg-black rounded-full xl:pt-0 lg:pl-[1.4px]  pt-[0.5px] lg:pt-[5.8px] md:pt-[5.8px]'><TiSocialFacebook className="cursor-pointer hover:text-gray-400 text-slate-100 p-1 " /></li>
           <li className='h-8 w-8 bg-black rounded-full xl:pt-0 pl-[1.4px] pt-[0.5px] lg:pt-[5.8px]      md:pt-[5.8px]'><CiInstagram className="cursor-pointer hover:text-gray-400 text-slate-100 p-1 " /></li>

@@ -9,9 +9,9 @@ function F5() {
     const { CARDDATA } = useDataContext(); // Access CARDDATA from the context
 
     return (
-        <div className="w-[147%] h-[800vh] xl:w-[100%] lg:w-[100%] md:w-[147%]  flex  relative  md:h-[450vh] xl:h-[218vh]  xl:flex-wrap lg:flex-wrap md:flex-wrap flex-wrap lg:h-[278vh] justify-center gap-8 py-8">
+        <div className="w-[147%] h-[800vh] xl:w-[100%] lg:w-[100%] md:w-[147%]  flex  relative  md:h-[234vh] xl:h-[218vh]  xl:flex-wrap lg:flex-wrap md:flex-wrap flex-wrap lg:h-[278vh] justify-center gap-8 py-8">
             {CARDDATA.map((item, index) => (
-                <div key={index} className=" xl:w-[400px] lg:w-[400px] md:w-[462px] w-[35rem] h-[125vh]  xl:h-[100vh] lg:h-[90vh] md:h-[142vh] bg-zinc-800 text-white overflow-hidden shadow-lg">
+                <div key={index} className=" xl:w-[400px] lg:w-[400px] md:w-[462px] w-[35rem] h-[125vh]  xl:h-[100vh] lg:h-[90vh] md:h-[76vh] bg-zinc-800 text-white overflow-hidden shadow-lg">
                     <img src={item.imagedat} alt={item.heading} className=" xl:h-[400px] lg:h-[300px] md:h-[589px] h-[24rem] w-full object-cover" />
                     <div className="p-6 h-[35vh] mt-[32px] xl:mt-0 lg:mt-0 md:mt-0    ">
                         <h2 className=" text-4xl xl:text-xl lg:text-lg md:text-lg font-thin mb-2 text-center xl:h-[7.5rem] lg:h-[5.5rem] xl:px-20 lg:px-14 ">{item.heading}</h2>
@@ -25,7 +25,7 @@ function F5() {
                     </div>
                 </div>
             ))}
-            <button className=" absolute top-[790vh] xl:top-[80rem] lg:top-[91.5rem] md:top-[143rem] bg-transparent border-b pb-2 my-16 border-neutral-950 text-black font-thin">
+            <button className=" absolute top-[790vh] xl:top-[80rem] lg:top-[91.5rem] md:top-[150rem] bg-transparent border-b pb-2 my-16 border-neutral-950 text-black font-thin">
               LOAD MORE POST
             </button>
         </div>

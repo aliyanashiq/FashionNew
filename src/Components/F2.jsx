@@ -10,7 +10,7 @@ function F2() {
      
      xl:h-[177vh] xl:p-[1rem] xl:pl-[3rem] xl:pr-[2rem] xl:mt-0 xl:w-[100%] xl:flex xl:flex-wrap xl:gap-6
      lg:h-[178vh] lg:w-[96%] lg:p-12 lg:pl-14 lg:mt-0  lg:flex lg:flex-wrap 
-     md:h-[357vh]  md:p-[1rem]  md:mt-[1rem] md:flex md:flex-wrap md:px-[3rem]
+     md:h-[239vh]  md:p-[1rem]  md:mt-[1rem] md:flex md:flex-wrap md:px-[3rem]
        '>
       {/* Card 1 */}
       <div className="con1 xl:basis-[48%] lg:basis-[45%] md:w-[100%] ">
@@ -21,7 +21,7 @@ function F2() {
         <img src="https://images.pexels.com/photos/28354749/pexels-photo-28354749/free-photo-of-a-family-poses-for-a-photo-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className=' hover:opacity-75
         xl:h-[148vh] xl:w-[100%]
         lg:h-[123vh] lg:w-[100%]
-        md:h-[150vh] md:w-[209vh] md:object-cover
+        md:h-[100vh] md:w-[209vh] md:object-cover
         w-[112vh] h-[120vh] object-cover
           ' />
           <div className="absolute  shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)] bottom-[-7rem]  left-[15px] right-0 bg-white bg-opacity-90 p-6 w-[92%]
@@ -64,7 +64,7 @@ function F2() {
             className='  object-cover hover:opacity-75 
             xl:h-full
             lg:h-[123vh]
-            md:h-[150vh]
+            md:h-[100vh]
             h-[120vh] w-[100%]
             '
           />
